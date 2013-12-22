@@ -38,7 +38,7 @@ para EDITAR: hacer click en el link "Lista de administradores" y posteriormente 
 para ELIMINAR: hacer click en el link "Lista de administradores" y posteriormente hacer click en "Eliminar" al costado del usuario que deseemos eliminar
 *el eliminar se hace directamente por lo tanto no existe una url especifica, ya que al eliminar un administrador se redireccion a la lista de adminisradores
 
-Cabe destacar que para hacer una correcta conexión a la base de datos debemos modificar los datos de autentificación de Postgre, esto lo debemos realizar entrando en el archivo que database.php el cual se encuentra dentro del proyecto en 
+Cabe destacar que para hacer una correcta conexión a la base de datos tenemos que modificar los datos de autentificación de Postgre, esto lo debemos realizar entrando en el archivo que database.php el cual se encuentra dentro del proyecto en 
 application/config. De este debemos modificar los campos:
 $db['default']['username'] = 'postgres';
 $db['default']['password'] = '1369';
